@@ -1,0 +1,9 @@
+{
+  "scriptFile" : "../eventtrigger-1.0-SNAPSHOT.jar",
+  "entryPoint" : "com.poc.example.Function.logEvent",
+  "bindings" : [ {
+    "type" : "eventGridTrigger",
+    "direction" : "in",
+    "name" : "event"
+  } ]
+}
